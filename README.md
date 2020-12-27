@@ -33,6 +33,15 @@ yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
+#### Install font support for Chinese/Japanese
+
+```
+https://fonts.google.com/specimen/Noto+Sans+SC #简体中文
+https://fonts.google.com/specimen/Noto+Sans+TC #繁体中文
+https://fonts.google.com/specimen/Noto+Sans+JP #Japanese
+```
+*Note: pick one or more to install, Note Sans can only be install via zip packages, please install manually*
+
 #### Program list
 
 - [AwesomeWM](https://awesomewm.org/) as the window manager - universal package install: awesome
