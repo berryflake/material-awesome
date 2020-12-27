@@ -12,9 +12,9 @@ return {
     rofi = rofi_command,
     lock = 'i3lock-fancy',
     quake = 'terminator',
-    screenshot = 'flameshot full -p ~/Pictures',
-    region_screenshot = 'flameshot gui -p ~/Pictures',
-    delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
+    screenshot = 'gnome-screenshot',
+    region_screenshot = 'gnome-screenshot -a',
+    delayed_screenshot = 'gnome-screenshot -d 3',
     browser = 'brave-browser',
     editor = 'gedit', -- gui text editor
     --social = 'discord',
@@ -32,9 +32,6 @@ return {
     '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     'gnome-power-manager', -- Power manager
      'steam -silent',
-     'flameshot',
-     --'/usr/bin/barrier',
-     --'~/.local/bin/wallpaper', -- wallpaper-reddit script
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
