@@ -85,3 +85,4 @@ The project is split in functional directories and in each of them there is a re
 * [Module](./module) contain all the **features** available
 * [Theme](./theme) hold all the **aesthetic** aspects
 * [Widget](./widget) contain all the **widgets** available
+* [install google fonts](https://www.google.com/get/noto/help/install/) How to install Google **Fonts** on the system.
