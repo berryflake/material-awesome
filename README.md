@@ -1,6 +1,7 @@
 ## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
 ### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
 ### This project is forked from CheisTutusTech, amd build upon it, mainly theming, icon-set and modifiy shortcuts.
+### Only been teseted on Pop-os 20.4 with nvidia driver.
 Note: This fork focuses on streamlining the config and adding some Quality of Life touches to the theme.
 
 An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
@@ -16,7 +17,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ### 1) Get all the dependencies
 
-#### Debian-Based
+#### Pop-os,Ubuntu or other Bebian-Based laptop
 
 ```
 sudo add-apt-repository ppa:regolith-linux/unstable -y
@@ -24,14 +25,24 @@ sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins 
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
+#### Pop-os,Ubuntu or other Bebian-Based tower
+##### Tower PC hsd removed xbacklight for minimize install footprint
+
+```
+sudo add-apt-repository ppa:regolith-linux/unstable -y
+sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance kde-spectacle nautilus xfce4-power-manager pnmixer network-manager-applet gnome-polkit -y
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+```
+
 *Note: PPA is for picom since compton is old and hasn't been updated*
 
-#### Arch-Based
 
+#### Arch-Based
 ```
 yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
+*Note: Not guaranteed to work, because I'm not using arch-based distros
 
 #### Install font support for Chinese/Japanese
 
@@ -56,7 +67,6 @@ https://fonts.google.com/specimen/Noto+Sans+JP #Japanese
 - [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme Universal Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
 - [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Laptop) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
-- [flameshot](https://flameshot.js.org/#/) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the apps.lua file
 - [pnmixer](https://github.com/nicklan/pnmixer) Audio Tray icon that is in debian repositories and is easily installed on arch through AUR.
 - [network-manager-applet](https://gitlab.gnome.org/GNOME/network-manager-applet) nm-applet is a Network Manager Tray display from GNOME.
 - [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) XFCE4's power manager is excellent and a great way of dealing with sleep, monitor timeout, and other power management features.
