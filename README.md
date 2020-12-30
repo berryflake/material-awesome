@@ -1,7 +1,7 @@
 ## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
 ### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
-### This project is forked from CheisTutusTech, amd build upon it, mainly theming, icon-set and modifiy shortcuts.
-### Only been teseted on Pop-os 20.4 with nvidia driver.
+### This project is forked from CheisTutusTech, and build upon it, mainly themeing, icon tweaking and modifying shortcuts.
+### Only been tested on Pop-os 20.4 with nvidia driver.
 Note: This fork focuses on streamlining the config and adding some Quality of Life touches to the theme.
 
 An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
