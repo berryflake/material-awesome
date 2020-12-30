@@ -39,17 +39,17 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
  - [pnmixer] did not work on my system.
  
  - [network-manager-applet] no such package
-   *note: here is something I found https://www.linuxquestions.org/questions/linux-newbie-8/network-manager-applet-on-mate-desktop-4175484669/
-   *network-manager-applet = nm-applet ? and is a component that comes within network-manager-gnome if so, then it already been installed.
-   *Github page https://github.com/NetworkManager/network-manager-applet
+ - *note: here is something I found https://www.linuxquestions.org/questions/linux-newbie-8/network-manager-applet-on-mate-desktop-4175484669/
+ - *network-manager-applet = nm-applet ? and is a component that comes within network-manager-gnome if so, then it already been installed.
+ - *Github page https://github.com/NetworkManager/network-manager-applet
    
  - [gnome-polkit] no such package
-     *https://wiki.gnome.org/Projects/PolicyKit
+ - *https://wiki.gnome.org/Projects/PolicyKit
  
 ##### ONly for me to do testing. *DO NOT USE.
 ```
 sudo add-apt-repository ppa:regolith-linux/unstable
-sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance kde-spectacle nautilus xfce4-power-manager network-manager-applet gnome-polkit
+sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance kde-spectacle nautilus xfce4-power-manager
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
  
