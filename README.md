@@ -35,8 +35,18 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
 *Note: PPA is for picom since compton is old and hasn't been updated*
-
-
+### issue: 
+ - [pnmixer] didnot work on my system.
+ - [network-manager-applet] no such package
+ - [gnome-polkit] no such package
+ 
+##### ONly for me to do testing. *DO NOT USE.
+```
+sudo add-apt-repository ppa:regolith-linux/unstable
+sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance kde-spectacle nautilus xfce4-power-manager network-manager-applet gnome-polkit
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+```
+ 
 #### Install font support for Chinese (optional)
 
 ```
