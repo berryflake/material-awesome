@@ -25,13 +25,13 @@ return {
   -- List of apps to start once on start-up
   run_on_start_up = {
     'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/picom.conf',
-    'nm-applet --indicator', -- wifi
-    --'pnmixer', -- shows an audiocontrol applet in systray when installed.
-    --'blueberry-tray', -- Bluetooth tray icon
     'numlockx on', -- enable numlock
+    'xfce4-power-manager', -- Power manager
+    --'pnmixer', -- shows an audiocontrol applet in systray when installed.
+    --'nm-applet --indicator', -- enable if your laptop or tower has wifi connectivity
+    --'blueberry-tray', -- Bluetooth tray icon
     '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
-    'gnome-power-manager', -- Power manager
-     'steam -silent',
+    --'steam -silent', -- enable if your have steam installed
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
