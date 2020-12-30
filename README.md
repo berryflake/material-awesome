@@ -36,9 +36,15 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 
 *Note: PPA is for picom since compton is old and hasn't been updated*
 ### issue: 
- - [pnmixer] didnot work on my system.
+ - [pnmixer] did not work on my system.
+ 
  - [network-manager-applet] no such package
+   *note: here is something I found https://www.linuxquestions.org/questions/linux-newbie-8/network-manager-applet-on-mate-desktop-4175484669/
+   *network-manager-applet = nm-applet ? and is a component that comes within network-manager-gnome if so, then it already been installed.
+   *Github page https://github.com/NetworkManager/network-manager-applet
+   
  - [gnome-polkit] no such package
+     *https://wiki.gnome.org/Projects/PolicyKit
  
 ##### ONly for me to do testing. *DO NOT USE.
 ```
