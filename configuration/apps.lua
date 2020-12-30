@@ -17,7 +17,6 @@ return {
     delayed_screenshot = 'gnome-screenshot -d 3',
     browser = 'brave-browser',
     editor = 'gedit', -- gui text editor
-    social = 'yoursocialapp', -- not yet defined
     game = rofi_command,
     files = 'nautilus',
     music = rofi_command 
