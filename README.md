@@ -37,12 +37,11 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 *Note: PPA is for picom since compton is old and hasn't been updated*
 
 
-#### Install font support for Chinese/Japanese
+#### Install font support for Chinese (optional)
 
 ```
 https://fonts.google.com/specimen/Noto+Sans+SC #简体中文
 https://fonts.google.com/specimen/Noto+Sans+TC #繁体中文
-https://fonts.google.com/specimen/Noto+Sans+JP #Japanese
 ```
 *Note: pick one or more to install, Note Sans can only be install via zip packages, please install manually*
 
@@ -50,7 +49,7 @@ https://fonts.google.com/specimen/Noto+Sans+JP #Japanese
 
 - [AwesomeWM](https://awesomewm.org/) as the window manager - universal package install: awesome
 - [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Debian: fonts-roboto Arch: ttf-roboto
-- [Noto Sans SC 思源黑体](https://fonts.google.com/specimen/Noto+Sans+SC) for **Chinese font** support
+- [Noto Sans SC/TC 思源黑体](https://fonts.google.com/specimen/Noto+Sans+SC) for **Chinese font** support
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - universal install: rofi
 - [picom](https://github.com/yshui/picom) for the compositor (blur and animations) universal install: picom - Debian users need PPA (`sudo add-apt-repository ppa:regolith-linux/unstable`)
 - [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application universal install: i3lock-fancy
